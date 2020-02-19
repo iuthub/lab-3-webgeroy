@@ -1,6 +1,7 @@
 *{box-sizing: border-box;}
 body{margin:0;}
-h2 span{border-bottom: 2px dashed blue;}
+h2 span{
+  border-bottom: 2px dashed blue;}
 #top-header{font-size:14pt}
 body{background-color: white; background: url("https://courses.cs.washington.edu/courses/cse190m/09sp/labs/2-journal/images/background.gif");}
 .header{background-color: #A8F0F0; overflow:hidden; clear:both;}
@@ -11,3 +12,5 @@ body{background-color: white; background: url("https://courses.cs.washington.edu
 .section img{float:right;}
 .left-panel{width:15%; float:left; height:100%; border: 5px solid #1a1aff; padding:5px; margin-top:10px; margin-right:10px;
   background:#99e6ff;}
+*:hover{background:yellow;}
+.w3emb{margin-left:10%;}
